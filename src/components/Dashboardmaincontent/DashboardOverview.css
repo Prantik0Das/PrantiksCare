@@ -1,0 +1,20 @@
+.overview{
+    display: flex;
+    width: 500px;
+}
+
+
+.anatomy-section{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    flex: 1;
+
+}
+.health-card-status{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    flex: 1;
+
+}

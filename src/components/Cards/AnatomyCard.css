@@ -1,0 +1,72 @@
+.card{
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    background-color: #c6cbde;
+    width: 10rem ;
+    height: auto;
+    text-align: left;
+    transition: transform 0.2s ease;
+    margin: 0.5rem;
+}
+
+.k{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.l{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+}
+
+.card:hover{
+    background-color: #3734a9;
+    transform: scale(1.02);
+}
+
+.card:hover .card-icon,
+.card:hover .card-title,
+.card:hover .card-date{
+       color: white;
+}
+.card-icon{
+    padding:0.5rem;
+    font-size: 2rem;
+     color: #2a277e;
+}
+
+.card-title{
+     color: #2a277e;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2f2b4e;
+    padding-left: 0.5rem;
+}
+
+.card-date{
+     color: #2a277e;
+    font-family: 'Nunito', sans-serif;
+    font-size: x-small;
+}
+
+.status-bar-container{
+    display: flex;
+    align-items: center;
+    width:90%;
+    height: 0.5rem;
+    background-color: #dcdfec;
+    border-radius: 5px;
+    overflow:hidden;
+    margin: 0.5rem 0;
+}
+
+.status-bar{
+    height: 100%;
+}

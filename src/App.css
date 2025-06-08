@@ -1,0 +1,24 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito';
+    border-radius: 2rem;
+}
+.top{
+
+    height: 6rem;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh-6rem);
+}
+
+.side{
+    width: 15rem;
+}
+
+.dash{
+    flex-grow: 1;
+}

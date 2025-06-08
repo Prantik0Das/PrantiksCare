@@ -1,0 +1,12 @@
+.pict{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.Anatomyx{
+ 
+    height:390px;
+    width: auto;
+    object-fit: contain;
+}

@@ -1,0 +1,37 @@
+.whole1{
+    color: #2a277e;
+    display: flex;
+    flex-direction: column;
+    background-color: #c6cbde;
+    margin-left: 1rem;
+    padding: 1rem;
+    width: auto;
+    height: 90px;
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+
+}
+
+.imp1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+    font-weight: bolder;
+    font-size: large;
+
+}
+
+
+.time9{
+    font-size: small;
+}
+
+.dr_name{
+    font-size: small;
+}
+.whole1:hover{
+    color: white;
+    background-color: #3734a9;
+    transform: scale(1.04);
+}

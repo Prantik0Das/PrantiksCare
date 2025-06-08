@@ -1,0 +1,22 @@
+
+.aaarange{
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-start;
+    padding: 2rem;
+}
+
+.card-row{
+    display: flex ;
+    gap:1.5rem
+}
+.details{
+    margin-left: auto;
+    margin-top: 0.5rem;
+    font-size: xx-small;
+    align-self: flex-start;
+} 
+
+.aaarange, .card-row, .details {
+  border: 1px dashed red;
+}
